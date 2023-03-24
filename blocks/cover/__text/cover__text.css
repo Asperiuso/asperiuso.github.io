@@ -1,0 +1,19 @@
+.cover__text {
+  max-width: 360px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin: 0;
+  color: #fff;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__text {
+    width: 80%;
+    font-size: calc(14px + (4 + 4 * 0.7) * ((100vw - 320px) / 768));
+    line-height: calc(16px + (6 + 6 * 0.7) * ((100vw - 320px) / 768));
+  }
+}
